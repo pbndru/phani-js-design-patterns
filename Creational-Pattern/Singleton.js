@@ -1,7 +1,7 @@
 /*
-    Singleton pattern is a creational design pattern 
-    It creates only one instance of a class.
-    If no instance found, it creates a new instance
+	Singleton pattern is a creational design pattern 
+	It creates only one instance of a class.
+	If no instance found, it creates a new instance
 */
 class DatabaseRepository {
 	constructor(data) {
@@ -11,8 +11,8 @@ class DatabaseRepository {
 		this.data = data;
 
 		DatabaseRepository.isExists = true;
-        DatabaseRepository.instance = this;
-        
+		DatabaseRepository.instance = this;
+
 		return this;
 	}
 
